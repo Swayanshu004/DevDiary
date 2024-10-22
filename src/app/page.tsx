@@ -6,7 +6,7 @@ export default function Home() {
         <Card 
         title="Git - Github" 
         creator="swayanshu" 
-        Url=""/>
+        Url="https://steel-gouda-1a5.notion.site/Git-GitHub-127946f3add0803b83e4c59ad263ead1?pvs=4"/>
         <Card 
         title="Docker" 
         creator="swayanshu" 
