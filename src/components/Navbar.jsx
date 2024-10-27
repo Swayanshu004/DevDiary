@@ -4,7 +4,9 @@ import Link from 'next/link'
 function Navbar() {
   return (
     <div className='flex flex-col items-center justify-between px-10 py-4 w-screen sm:flex-row '>
-        <h1 className="text-4xl font-semibold text-lime-500 ">DevDiary</h1>
+        <Link href="#">
+            <h1 className="text-4xl font-semibold text-lime-500 ">DevDiary</h1>
+        </Link>
         <div className='mt-4 w-full lg:mt-0 lg:w-1/3'>
             <ul className='w-full flex items-center justify-end gap-3 md:gap-5 '>
                 <li>
