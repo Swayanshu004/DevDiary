@@ -23,7 +23,7 @@ export default function Home() {
   
   return (
     <div>
-      <div className="min-h-[90vh] p-10 flex gap-4 justify-center flex-wrap">
+      <div className="min-h-[70vh] p-10 flex gap-4 justify-center flex-wrap">
         {
           blogs.map((blog, i)=>(
             <Card 
