@@ -15,7 +15,9 @@ export default function Home() {
     })
     .then(res => {
       if (res.data) {
-        setBlogs(res.data);
+        console.log(res.data);
+        let result = res.data.sort((a, b) => (b.blogUrl ? 1 : 0) - (a.blogUrl ? 1 : 0));
+        setBlogs(result);
       }
     })
     .catch(err => console.error(err));
