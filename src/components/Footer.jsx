@@ -6,20 +6,20 @@ function Footer() {
   return (
     <div className='w-screen px-10 py-5'>
         <div className='h-fit bg-lime-500 rounded-xl text-white py-4 px-10 flex flex-col md:flex-row gap-5 items-end justify-between'>
-          <div className='flex md:flex-col gap-5 md:gap-1'>
+          <div className='flex md:flex-col gap-5 md:gap-2'>
             <Link href="https://github.com/Swayanshu004">            
               <div className='h-6'>
-              <FaGithub className='text-black text-xl my-2 hover:text-2xl'/>
+              <FaGithub className='text-black text-xl my-2 hover:scale-150 ease-in-out duration-300'/>
               </div>
             </Link>
             <Link href="https://x.com/SwayanshuSahoo">            
               <div className='h-6'>
-              <FaXTwitter className='text-black text-xl my-2 hover:text-2xl'/>
+              <FaXTwitter className='text-black text-xl my-2 hover:scale-150 ease-in-out duration-300'/>
               </div>
             </Link>
             <Link href="https://www.linkedin.com/in/swayanshu-satyapragyan-sahoo-084b6525a/">            
               <div className='h-6'>
-              <FaLinkedinIn className='text-black text-xl my-2 hover:text-2xl'/>
+              <FaLinkedinIn className='text-black text-xl my-2 hover:scale-150 ease-in-out duration-300'/>
               </div>
             </Link>
           </div>
