@@ -7,6 +7,13 @@ const blogs = [
       "creatorName": "swayanshu"
     },
     {
+      "_id": "OOPs-IN-C++",
+      "title": "OOPs in C++",
+      "imageUrl": "https://res.cloudinary.com/swayanshu/image/upload/v1745424750/DevDiary/krest2zf63rbi3lcykxe.jpg",
+      "blogUrl": "/blogs/1d3946f3add08097ab30de26830cc36b",
+      "creatorName": "swayanshu"
+    },
+    {
       "_id": "vlog_swayanshu_02",
       "title": "Docker",
       "imageUrl": "https://res.cloudinary.com/swayanshu/image/upload/v1729880022/DevDiary/guwppkch6muvxvlajmo3.png",
@@ -26,7 +33,7 @@ const blogs = [
       "imageUrl": "",
       "blogUrl": "/blogs/14f946f3add08071a4a4ef4ec256da2a",
       "creatorName": "swayanshu"
-    }
+    },
   ];
 
 export default blogs;
