@@ -66,11 +66,6 @@ function Navbar() {
                         </div>
                     </li>
                     <li><Link href="/series" className='text-sm md:text-md hover:text-lime-400 border-2 hover:border-lime-400 rounded-lg px-2 md:px-5 py-2 font-mono'>Series</Link></li>
-                    <li>
-                        <Link href="/">
-                            <div className='w-10 h-10 bg-lime-500 rounded-lg hover:border-2'></div>
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </div>
