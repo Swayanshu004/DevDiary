@@ -33,7 +33,7 @@ function Footer() {
             <p className='text-amber-400 text-sm font-semibold bg-black py-3 px-5 rounded-lg mt-3 flex gap-3'>
             <FaMapPin className='text-xl'/> All content provided here is solely for educational purposes and not intended for resale !
             </p>
-            <p className=''>a product under <a href='www.codingaashram.com' className='text-black font-sans text-xl underline hover:text-white'>codingaashram</a> community</p>
+            <p className=''>a product under <a href='//codingaashram.vercel.app' target='_blank' className='text-black font-sans text-xl underline hover:text-white'>codingaashram</a> community</p>
           </div>
         </div>
     </div>

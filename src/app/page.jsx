@@ -16,7 +16,7 @@ export default function Home() {
             key={i}
             title={blog.title} 
             creator={blog.creatorName} 
-            blogUrl={blog.blogUrl}
+            url={blog.url}
             imageUrl={blog.imageUrl}/>
           ))
         }
