@@ -8,8 +8,8 @@ import series from '@/app/series';
 function Navbar() {
     const [keyword, setKeyword] = useState("");
     const [ids, setIds] = useState([]);
+    
     function search(keyword){
-        console.log(keyword);
         setIds([]);
         for(let i=0 ; i<blogs.length ; i++){
             for(let token in blogs[i].tokens){
@@ -27,7 +27,6 @@ function Navbar() {
             }
         }
         setKeyword("");
-        console.log(ids);
     }
     return (
         <div className='flex flex-col items-center justify-between px-10 py-4 w-screen sm:flex-row '>
