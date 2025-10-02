@@ -5,15 +5,15 @@ const blogs = [
       "imageUrl": "https://res.cloudinary.com/swayanshu/image/upload/v1730489631/DevDiary/ymkrzikwht41azanksrk.png",
       "url": "/blogs/12f946f3add080e6aaf8d55fa6d16697",
       "creatorName": "swayanshu",
-      "tokens":["node","Node","Node.js", "javaScript"],
+      "tokens":["What","is","Node","javaScript","js"],
     },
     {
-      "_id": "OOPs-IN-C++",
+      "_id": "1d3946f3add08097ab30de26830cc36b",
       "title": "OOPs in C++",
       "imageUrl": "https://res.cloudinary.com/swayanshu/image/upload/v1745424750/DevDiary/krest2zf63rbi3lcykxe.jpg",
       "url": "/blogs/1d3946f3add08097ab30de26830cc36b",
       "creatorName": "swayanshu",
-      "tokens":["oop","oops","object","oriented","programming","object oriented programming","c","c++","c plus plus","+"],
+      "tokens":["OOPs","in","C++","object","oriented","programming","object oriented programming","c","plus","++"],
     },
     {
       "_id": "14f946f3add08071a4a4ef4ec256da2a",
@@ -21,7 +21,7 @@ const blogs = [
       "imageUrl": "",
       "url": "/blogs/14f946f3add08071a4a4ef4ec256da2a",
       "creatorName": "swayanshu",
-      "tokens":[],
+      "tokens":["Websocket","javaScript","js","protocol","web"],
     },
     {
       "_id": "vlog_swayanshu_02",
